@@ -32,4 +32,8 @@ button {
   padding: 5px;
   width: 20ch;
 }
+
+button:hover {
+  background-color: #f2b7c6;
+}
 </style>
