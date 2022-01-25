@@ -28,6 +28,6 @@ body {
 }
 
 h1 {
-  color: #42b983;
+  color: #cc76a1;
 }
 </style>

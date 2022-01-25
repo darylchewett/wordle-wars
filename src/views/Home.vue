@@ -26,6 +26,10 @@ export default {
 <style scoped>
 button {
   font-size: xx-large;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  background-color: #dd9296;
+  border-radius: 10px;
+  padding: 5px;
+  width: 20ch;
 }
 </style>
