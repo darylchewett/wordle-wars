@@ -1,11 +1,11 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/about',
@@ -15,13 +15,20 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
-    }
-  }
+    },
+  },
+  {
+    path: '/wordle',
+    name: 'Wordle',
+    component: function () {
+      return import('../views/Wordle.vue')
+    },
+  },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
-  routes
+  history: createWebHistory(process.env.BASE_URL),
+  routes,
 })
 
 export default router
