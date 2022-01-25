@@ -1,6 +1,6 @@
 # Wordle Wars
 
-## A Local head to head verison of the craze puzzle game
+## A Local head to head version of the craze puzzle game
 
 A little refresh and renewal of my Vue3 (Composition API) knowledge
 
